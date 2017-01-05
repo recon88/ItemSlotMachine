@@ -7,10 +7,10 @@ import org.bukkit.entity.Player;
 
 import com.darkblade12.itemslotmachine.util.ReflectionUtil;
 
-import net.minecraft.server.v1_10_R1.BlockPosition;
-import net.minecraft.server.v1_10_R1.EntityItemFrame;
-import net.minecraft.server.v1_10_R1.EnumDirection;
-import net.minecraft.server.v1_10_R1.World;
+import net.minecraft.server.v1_11_R1.BlockPosition;
+import net.minecraft.server.v1_11_R1.EntityItemFrame;
+import net.minecraft.server.v1_11_R1.EnumDirection;
+import net.minecraft.server.v1_11_R1.World;
 
 public final class ReferenceItemFrame extends ReferenceLocation {
 	private static final String FORMAT = "-?\\d+(@-?\\d+){2}@(SOUTH|WEST|NORTH|EAST)@(SOUTH|WEST|NORTH|EAST)";
